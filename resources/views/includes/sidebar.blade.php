@@ -25,7 +25,16 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('users.index') }}">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>User</span></a>
+                    <span>User</span>
+                </a>
+                <a class="nav-link" href="{{ route('simulasis.index') }}">
+                    <i class="fas fa-fw fa-tags"></i>
+                    <span>Daftar Simulasi</span>
+                </a>
+                <a class="nav-link" href="{{ route('materis.index') }}">
+                    <i class="fas fa-fw fa-cube"></i>
+                    <span>Daftar Materi</span>
+                </a>
             </li>
 
            
